@@ -1,3 +1,16 @@
 body{
-    background-image: url("../images/stehvenhn.jpg");
+    background-image: url(../images/stehvenhn.jpg);
+}
+
+a{
+    /* background-color: aliceblue; */
+    /* padding: .4em; */
+    /* margin: 1em; */
+}
+
+.link{
+    max-width: fit-content;
+    background-color: aliceblue;
+    padding: .4em;
+    margin: 1em;
 }
