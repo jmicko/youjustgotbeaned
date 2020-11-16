@@ -15,7 +15,7 @@ const app = express();
 const port = 5000;
 
 // Tell express where to find static files that it can send on request
-app.use( express.static('server/public') );
+app.use( express.static('./server/public') );
 
 // tell express how to parse incoming data
 app.use( bodyParser.urlencoded( {extended: true} ) );
